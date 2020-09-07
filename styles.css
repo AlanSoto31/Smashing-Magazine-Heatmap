@@ -382,3 +382,49 @@ nav {
     grid-row: 4/5;
     margin-top: 150px;
 }
+
+/*******Smashing members section*******/
+
+.smashing-members-container {
+    grid-column: 2/4;
+    grid-row: 5/6;
+    margin-top: 60px;
+    border: 1px solid gray;
+}
+
+.smashing-members-items-container {
+    width: 850px;
+}
+
+.smashing-members-img {
+    width: 250px;
+    height: 250px;
+    margin: 70px auto;
+}
+
+.smashing-title {
+    width: 600px;
+    height: 60px;
+    margin-bottom: 60px;
+}
+
+.smashing-lines {
+    width: 700px;
+}
+
+.smashing-lines2 {
+    width: 800px;
+}
+
+.smashing-btn {
+    width: 280px;
+    height: 80px;
+    margin-top: 60px;
+}
+
+.smashing-sigin {
+    width: 300px;
+    height: 20px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
