@@ -55,3 +55,34 @@
 .Br-15 {
     border-radius: 15px;
 }
+
+
+
+
+
+/*******nav-bar*******/
+
+nav {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    height: 97px;
+}
+
+nav div {
+    border: 1px solid black;
+}
+
+.nav-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.nav-words {
+    width: 120px;
+    height: 50px;
+}
+
+.nav-search {
+    width: 400px;
+    height: 60px;
+}
