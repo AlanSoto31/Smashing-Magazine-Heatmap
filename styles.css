@@ -271,15 +271,53 @@ nav {
     margin-bottom: 80px;
 }
 
-/*******eith articles section 1era parte*******/
+/*******Main Grid Container*******/
 
 .main-grid-container {
     grid-template-columns: 150px 1fr 1fr 150px;
 }
 
+/*******Membership section*******/
+
+.membership-container {
+    grid-column: 1/5;
+    grid-row: 1/2;
+    border: 1px solid gray;
+}
+
+.membership-items-container {
+    width: 1100px;
+    margin: 60px auto;
+}
+
+.membership-img {
+    width: 250px;
+    height: 350px;
+}
+
+.membership-text-container2 {
+    margin-top: 60px;
+}
+
+.membership-lines {
+    width: 700px;
+}
+
+.membership-lines2 {
+    width: 500px;
+}
+
+.membership-btn {
+    width: 400px;
+    height: 80px;
+    margin-top: 60px;
+}
+
+/*******eith articles section 1era parte*******/
+
 .eith-articles-main-title-container {
     grid-column: 2/4;
-    grid-row: 1/2;
+    grid-row: 2/3;
     height: 100px;
 }
 
@@ -291,7 +329,7 @@ nav {
 
 .ea1-container {
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 3/4;
     margin-top: 50px;
 }
 
@@ -329,18 +367,18 @@ nav {
 
 .ea2-container {
     grid-column: 3/4;
-    grid-row: 2/3;
+    grid-row: 3/4;
     margin-top: 50px;
 }
 
 .ea3-container {
     grid-column: 2/3;
-    grid-row: 3/4;
+    grid-row: 4/5;
     margin-top: 150px;
 }
 
 .ea4-container {
     grid-column: 3/4;
-    grid-row: 3/4;
+    grid-row: 4/5;
     margin-top: 150px;
 }
