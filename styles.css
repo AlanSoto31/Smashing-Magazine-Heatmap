@@ -770,3 +770,62 @@ nav {
     grid-column: 1/5;
     grid-row: 25/26;
 }
+
+/*******Footer section*******/
+
+.footer-container {
+    grid-column: 1/5;
+    grid-row: 26/27;
+    border: 1px solid gray;
+}
+
+.subfooter1-container {
+    width: 960px;
+    margin-top: 50px;
+}
+
+.footer-lines {
+    width: 600px;
+}
+
+.footer-lines2 {
+    width: 400px;
+}
+
+.footer-ul-topics {
+    margin-top: 50px;
+}
+
+.footer-ul-topics li {
+    width: 100px;
+    height: 25px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.subfooter2-container {
+    width: 1000px;
+    margin-top: 100px;
+}
+
+.subfooter2-text-container {
+    width: 600px;
+}
+
+.footer-img {
+    width: 250px;
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 120px;
+}
+
+.footer-ul-information {
+    margin-top: 50px;
+}
+
+.footer-ul-information li {
+    width: 100px;
+    height: 25px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
