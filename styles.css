@@ -644,3 +644,48 @@ nav {
     grid-column: 2/4;
     grid-row: 18/19;
 }
+
+/*******More links section*******/
+
+.more-links-container {
+    grid-column: 1/5;
+    grid-row: 19/20;
+}
+
+/*******Design system section*******/
+
+.design-container {
+    grid-column: 1/5;
+    grid-row: 20/21;
+    border: 1px solid gray;
+}
+
+.design-items-container {
+    width: 1100px;
+    margin: 60px auto;
+}
+
+.design-img {
+    width: 250px;
+    height: 350px;
+}
+
+.design-title {
+    width: 400px;
+    height: 60px;
+    margin: 50px 0;
+}
+
+.design-lines {
+    width: 700px;
+}
+
+.design-lines2 {
+    width: 300px;
+}
+
+.design-btn {
+    width: 400px;
+    height: 80px;
+    margin-top: 60px;
+}
