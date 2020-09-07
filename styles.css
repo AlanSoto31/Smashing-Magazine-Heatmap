@@ -87,10 +87,6 @@ nav {
     height: 97px;
 }
 
-nav div {
-    border: 1px solid black;
-}
-
 .nav-logo {
     width: 50px;
     height: 50px;
@@ -107,10 +103,6 @@ nav div {
 }
 
 /*******second nav-bar*******/
-
-.main-title-container div {
-    border: 1px solid black;
-}
 
 .main-title-container {
     width: 500px;
@@ -129,10 +121,6 @@ nav div {
     height: 70px;
 }
 
-.second-title-container div {
-    border: 1px solid black;
-}
-
 .second-title-container {
     top: 160px;
     right: 30px;
@@ -147,4 +135,126 @@ nav div {
 .second-title-text {
     width: 200px;
     height: 50px;
+}
+
+/*******four articles section*******/
+
+.four-articles-container{
+    grid-template-columns: 1fr 1fr;
+}
+
+.fa1-container {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border: 1px solid gray;
+}
+
+.fa1-items-container{
+    width: 620px;
+    margin-top: 300px;
+    margin-bottom: 80px;
+}
+
+.fa-header-container {
+    width: 620px;
+}
+
+.fa-title {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.fa-text-container {
+    width: 620px;
+    margin-top: 20px;
+}
+
+.fa-img {
+    width: 86px;
+    height: 96px;
+}
+
+.fa-title {
+    width: 300px;
+    height: 30px;
+}
+
+.fa-lines {
+    margin: 25px 0;
+}
+
+.fa-line1 {
+    width: 620px;
+    height: 50px;
+}
+
+.fa-line2 {
+    width: 520px;
+    height: 50px;
+}
+
+.fa-line3 {
+    width: 400px;
+    height: 50px;
+}
+
+.fa-line3-1 {
+    width: 130px;
+    height: 25px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.fa-footer-container {
+    width: 620px;
+    margin-top: 60px;
+}
+
+.fa-footer-line {
+    width: 100px;
+    height: 23px;
+    margin-right: 80px;
+}
+
+.fa-arrow {
+    width: 65px;
+    height: 10px;
+    margin-top: 130px;
+}
+
+.fa2-container  {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border: 1px solid gray;
+}
+
+.fa2-items-container{
+    width: 620px;
+    margin-top: 300px;
+    margin-bottom: 80px;
+}
+
+
+.fa3-container  {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    border: 1px solid gray;
+}
+
+.fa3-items-container{
+    width: 620px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.fa4-container  {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    border: 1px solid gray;
+}
+
+.fa4-items-container{
+    width: 620px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
