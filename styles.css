@@ -60,6 +60,25 @@
 
 
 
+
+/*******Color classes*******/
+
+.gray-1 {
+    background: black;
+}
+
+.gray-2 {
+    background: rgb(90, 90, 90);
+}
+
+.gray-3 {
+    background: rgb(150, 150, 150);
+}
+
+.gray-4 {
+    background: rgb(220, 220, 220);
+}
+
 /*******nav-bar*******/
 
 nav {
