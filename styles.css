@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background: #F6F3F2;
+}
+
 /*******Global classes*******/
 
 .grid {
@@ -71,6 +75,14 @@
     height: 30px;
     margin: 120px auto;
     border: 1px solid black;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-150 {
+    margin-top: 150px;
 }
 
 /*******Color classes*******/
@@ -318,7 +330,6 @@ nav {
 .eith-articles-main-title-container {
     grid-column: 2/4;
     grid-row: 2/3;
-    height: 100px;
 }
 
 .eith-articles-main-title {
@@ -330,7 +341,6 @@ nav {
 .ea1-container {
     grid-column: 2/3;
     grid-row: 3/4;
-    margin-top: 50px;
 }
 
 .ea-items-container {
@@ -368,19 +378,16 @@ nav {
 .ea2-container {
     grid-column: 3/4;
     grid-row: 3/4;
-    margin-top: 50px;
 }
 
 .ea3-container {
     grid-column: 2/3;
     grid-row: 4/5;
-    margin-top: 150px;
 }
 
 .ea4-container {
     grid-column: 3/4;
     grid-row: 4/5;
-    margin-top: 150px;
 }
 
 /*******Smashing members section*******/
@@ -427,4 +434,26 @@ nav {
     height: 20px;
     margin-top: 30px;
     margin-bottom: 70px;
+}
+
+/*******Eith articles section 2da parte*******/
+
+.ea5-container {
+    grid-column: 2/3;
+    grid-row: 6/7;
+}
+
+.ea6-container {
+    grid-column: 3/4;
+    grid-row: 6/7;
+}
+
+.ea7-container {
+    grid-column: 2/3;
+    grid-row: 7/8;
+}
+
+.ea8-container {
+    grid-column: 3/4;
+    grid-row: 7/8;
 }
