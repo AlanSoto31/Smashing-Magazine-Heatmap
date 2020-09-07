@@ -457,3 +457,21 @@ nav {
     grid-column: 3/4;
     grid-row: 7/8;
 }
+
+/*******Smashing TV section*******/
+
+.smashing-tv-container {
+    grid-column: 2/4;
+    grid-row: 8/9;
+    border: 1px solid gray;
+}
+
+.smashing-tv-items-container {
+    width: 850px;
+}
+
+.smashing-tv-img {
+    width: 250px;
+    height: 250px;
+    margin: 70px auto;
+}
