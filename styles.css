@@ -533,3 +533,114 @@ nav {
     height: 500px;
     margin: 80px auto;
 }
+
+/*******Comunity links section*******/
+
+.comunity-links-title-container {
+    grid-column: 2/4;
+    grid-row: 11/12;
+    height: 100px;
+}
+
+.comunity-links-title {
+    width: 250px;
+    height: 30px;
+    margin: 35px 0;
+}
+
+.comunity-links-container {
+    grid-column: 2/4;
+    grid-row: 12/13;
+    height: 1000px;
+}
+
+.week-person-container {
+    grid-column: 2/4;
+    grid-row: 12/13;
+
+}
+
+.week-person-img {
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.week-person-title {
+    width: 250px;
+    height: 30px;
+    margin-bottom: 50px;
+}
+
+.week-person-text-container {
+    margin-left: 50px;
+}
+
+.week-person-lines{
+    width: 700px;
+}
+
+.week-person-lines2 {
+    width: 650px;
+}
+
+/*******Comments section*******/
+
+.comment-1-container {
+    grid-column: 2/4;
+    grid-row: 13/14;
+}
+
+.comments-img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.comments-name {
+    width: 450px;
+    height: 30px;
+}
+
+.comments-title {
+    width: 600px;
+    height: 30px;
+    margin: 40px 0;
+}
+
+.comments-text-container {
+    margin-left: 50px;
+}
+
+.comments-lines{
+    width: 800px;
+}
+
+.comments-lines2 {
+    width: 600px;
+}
+
+.comment-2-container {
+    grid-column: 2/4;
+    grid-row: 14/15;
+}
+
+.comment-3-container {
+    grid-column: 2/4;
+    grid-row: 15/16;
+}
+
+.comment-4-container {
+    grid-column: 2/4;
+    grid-row: 16/17;
+}
+
+.comment-5-container {
+    grid-column: 2/4;
+    grid-row: 17/18;
+}
+
+.comment-6-container {
+    grid-column: 2/4;
+    grid-row: 18/19;
+}
