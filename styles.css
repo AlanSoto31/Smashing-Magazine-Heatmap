@@ -5,3 +5,53 @@
     font-family: sans-serif;
     box-sizing: border-box;
 }
+
+/*******Global classes*******/
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}
+
+.Fr-wrap {
+    flex-wrap: wrap;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.AI-center {
+    align-items: center;
+}
+
+.JC-space-around {
+    justify-content: space-around;
+}
+
+.JC-center {
+    justify-content: center;
+}
+
+.M-auto {
+    margin: auto;
+}
+
+.F-left {
+    float: left;
+}
+
+.F-right {
+    float: right;
+}
+
+.OF-auto {
+    overflow: auto;
+}
+
+.Br-15 {
+    border-radius: 15px;
+}
