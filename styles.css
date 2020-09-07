@@ -475,3 +475,61 @@ nav {
     height: 250px;
     margin: 70px auto;
 }
+
+/*******Lastes article section*******/
+
+.latest-articles-container {
+    grid-column: 1/5;
+    grid-row: 9/10;
+}
+
+/*******Click section*******/
+
+.click-container {
+    grid-column: 1/5;
+    grid-row: 10/11;
+    border: 1px solid gray;
+}
+
+.click-items-container {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.click-date {
+    width: 300px;
+    height: 25px;
+    margin-bottom: 60px;
+}
+
+.click-title {
+    width: 800px;
+    height: 60px;
+    margin: 25px auto;
+}
+
+.click-title2 {
+    width: 500px;
+    height: 60px;
+    margin: 25px auto;
+}
+
+.click-lines {
+    width: 850px;
+}
+
+.click-lines2 {
+    width: 700px;
+}
+
+.click-btn {
+    width: 450px;
+    height: 80px;
+    margin-top: 60px;
+}
+
+.click-img {
+    width: 500px;
+    height: 500px;
+    margin: 80px auto;
+}
