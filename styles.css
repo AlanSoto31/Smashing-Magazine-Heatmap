@@ -1,831 +1,826 @@
-*{ 
-    margin: 0px;
-    padding: 0px;
-    border: 0;
-    font-family: sans-serif;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 body {
-    background: #F6F3F2;
+  background: #f6f3f2;
 }
 
-/*******Global classes*******/
+/*******  Global classes  *******/
 
 .grid {
-    display: grid;
+  display: grid;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .Fr-wrap {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .absolute {
-    position: absolute;
+  position: absolute;
 }
 
 .AI-center {
-    align-items: center;
+  align-items: center;
 }
 
 .JC-space-around {
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 .JC-center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .M-auto {
-    margin: auto;
+  margin: auto;
 }
 
 .F-left {
-    float: left;
+  float: left;
 }
 
 .F-right {
-    float: right;
+  float: right;
 }
 
 .OF-auto {
-    overflow: auto;
+  overflow: auto;
 }
 
 .Br-15 {
-    border-radius: 15px;
+  border-radius: 15px;
 }
 
 .Br-50 {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .text {
-    height: 25px;
-    margin-top: 25px;
-    margin-bottom:25px;
+  height: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .separation {
-    width: 250px;
-    height: 30px;
-    margin: 120px auto;
+  width: 250px;
+  height: 30px;
+  margin: 120px auto;
 }
 
 .mt-50 {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .mt-150 {
-    margin-top: 150px;
+  margin-top: 150px;
 }
 
-/*******Color classes*******/
+/*******  Color classes  *******/
 
 .gray-1 {
-    background: black;
+  background: black;
 }
 
 .gray-2 {
-    background: rgb(90, 90, 90);
+  background: rgb(90, 90, 90);
 }
 
 .gray-3 {
-    background: rgb(150, 150, 150);
+  background: rgb(150, 150, 150);
 }
 
 .gray-4 {
-    background: rgb(220, 220, 220);
+  background: rgb(220, 220, 220);
 }
 
-/*******nav-bar*******/
+/*******  nav-bar  *******/
 
 nav {
-    grid-column: 1/3;
-    grid-row: 1/2;
-    height: 97px;
+  grid-column: 1/3;
+  grid-row: 1/2;
+  height: 97px;
 }
 
 .nav-logo {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .nav-words {
-    width: 120px;
-    height: 50px;
+  width: 120px;
+  height: 50px;
 }
 
 .nav-search {
-    width: 400px;
-    height: 60px;
+  width: 400px;
+  height: 60px;
 }
 
-/*******second nav-bar*******/
+/*******  second nav-bar  *******/
 
 .main-title-container {
-    width: 500px;
-    top: 160px;
-    left: 50%;
-    transform: translate(-50%);
+  width: 500px;
+  top: 160px;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .main-title-line1 {
-    width: 100%;
-    height: 70px;
+  width: 100%;
+  height: 70px;
 }
 
 .main-title-line2 {
-    width: 40%;
-    height: 70px;
+  width: 40%;
+  height: 70px;
 }
 
 .second-title-container {
-    top: 160px;
-    right: 30px;
+  top: 160px;
+  right: 30px;
 }
 
 .second-title-img {
-    width: 80px;
-    height: 80px;
-    margin-right: 20px;
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
 }
 
 .second-title-text {
-    width: 200px;
-    height: 50px;
+  width: 200px;
+  height: 50px;
 }
 
-/*******four articles section*******/
+/*******  four articles section  *******/
 
-.four-articles-container{
-    grid-template-columns: 1fr 1fr;
+.four-articles-container {
+  grid-template-columns: 1fr 1fr;
 }
 
 .fa1-container {
-    grid-column: 1/2;
-    grid-row: 2/3;
-    border: 1px solid gray;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  border: 1px solid gray;
 }
 
-.fa1-items-container{
-    width: 620px;
-    margin-top: 300px;
-    margin-bottom: 80px;
+.fa1-items-container {
+  width: 620px;
+  margin-top: 300px;
+  margin-bottom: 80px;
 }
 
 .fa-header-container {
-    width: 620px;
+  width: 620px;
 }
 
 .fa-title {
-    margin-left: 30px;
-    margin-top: 15px;
+  width: 300px;
+  height: 30px;
+  margin-left: 30px;
+  margin-top: 15px;
 }
 
 .fa-text-container {
-    width: 620px;
-    margin-top: 20px;
+  width: 620px;
+  margin-top: 20px;
 }
 
 .fa-img {
-    width: 86px;
-    height: 96px;
-}
-
-.fa-title {
-    width: 300px;
-    height: 30px;
+  width: 86px;
+  height: 96px;
 }
 
 .fa-lines {
-    margin: 25px 0;
+  margin: 25px 0;
 }
 
 .fa-line1 {
-    width: 620px;
-    height: 50px;
+  width: 620px;
+  height: 50px;
 }
 
 .fa-line2 {
-    width: 520px;
-    height: 50px;
+  width: 520px;
+  height: 50px;
 }
 
 .fa-line3 {
-    width: 400px;
-    height: 50px;
+  width: 400px;
+  height: 50px;
 }
 
 .fa-line3-1 {
-    width: 130px;
-    height: 25px;
-    margin-left: 15px;
-    margin-top: 10px;
+  width: 130px;
+  height: 25px;
+  margin-left: 15px;
+  margin-top: 10px;
 }
 
 .fa-footer-container {
-    width: 620px;
-    margin-top: 60px;
+  width: 620px;
+  margin-top: 60px;
 }
 
 .fa-footer-line {
-    width: 100px;
-    height: 23px;
-    margin-right: 80px;
+  width: 100px;
+  height: 23px;
+  margin-right: 80px;
 }
 
 .fa-arrow {
-    width: 65px;
-    height: 10px;
-    margin-top: 130px;
+  width: 65px;
+  height: 10px;
+  margin-top: 130px;
 }
 
-.fa2-container  {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    border: 1px solid gray;
+.fa2-container {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  border: 1px solid gray;
 }
 
-.fa2-items-container{
-    width: 620px;
-    margin-top: 300px;
-    margin-bottom: 80px;
+.fa2-items-container {
+  width: 620px;
+  margin-top: 300px;
+  margin-bottom: 80px;
 }
 
-
-.fa3-container  {
-    grid-column: 1/2;
-    grid-row: 3/4;
-    border: 1px solid gray;
+.fa3-container {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  border: 1px solid gray;
 }
 
-.fa3-items-container{
-    width: 620px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+.fa3-items-container {
+  width: 620px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
-.fa4-container  {
-    grid-column: 2/3;
-    grid-row: 3/4;
-    border: 1px solid gray;
+.fa4-container {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  border: 1px solid gray;
 }
 
-.fa4-items-container{
-    width: 620px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+.fa4-items-container {
+  width: 620px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
-/*******Main Grid Container*******/
+/*******  Main Grid Container  *******/
 
 .main-grid-container {
-    grid-template-columns: 150px 1fr 1fr 150px;
+  grid-template-columns: 150px 1fr 1fr 150px;
 }
 
-/*******Membership section*******/
+/*******  Membership section  *******/
 
 .membership-container {
-    grid-column: 1/5;
-    grid-row: 1/2;
-    border: 1px solid gray;
+  grid-column: 1/5;
+  grid-row: 1/2;
+  border: 1px solid gray;
 }
 
 .membership-items-container {
-    width: 1100px;
-    margin: 60px auto;
+  width: 1100px;
+  margin: 60px auto;
 }
 
 .membership-img {
-    width: 250px;
-    height: 350px;
+  width: 250px;
+  height: 350px;
 }
 
 .membership-text-container2 {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 .membership-lines {
-    width: 700px;
+  width: 700px;
 }
 
 .membership-lines2 {
-    width: 500px;
+  width: 500px;
 }
 
 .membership-btn {
-    width: 400px;
-    height: 80px;
-    margin-top: 60px;
+  width: 400px;
+  height: 80px;
+  margin-top: 60px;
 }
 
-/*******eith articles section 1era parte*******/
+/*******  eith articles section 1era parte  *******/
 
 .eith-articles-main-title-container {
-    grid-column: 2/4;
-    grid-row: 2/3;
+  grid-column: 2/4;
+  grid-row: 2/3;
 }
 
 .eith-articles-main-title {
-    width: 500px;
-    height: 30px;
-    margin-top: 35px;
+  width: 500px;
+  height: 30px;
+  margin-top: 35px;
 }
 
 .ea1-container {
-    grid-column: 2/3;
-    grid-row: 3/4;
+  grid-column: 2/3;
+  grid-row: 3/4;
 }
 
 .ea-items-container {
-    width: 500px;
+  width: 500px;
 }
 
 .ea-date {
-    width: 100px;
-    height: 20px;
-    margin-bottom: 30px;
+  width: 100px;
+  height: 20px;
+  margin-bottom: 30px;
 }
 
 .ea-title {
-    width: 100%;
-    height: 40px;
-    margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
 }
 
 .ea-subtitle {
-    width: 250px;
-    height: 30px;
-    margin: 50px 0;
+  width: 250px;
+  height: 30px;
+  margin: 50px 0;
 }
 
 .ea-lines {
-    width: 450px;
+  width: 450px;
 }
 
 .ea-arrow {
-    width: 65px;
-    height: 10px;
-    margin-top: 100px;
+  width: 65px;
+  height: 10px;
+  margin-top: 100px;
 }
 
 .ea2-container {
-    grid-column: 3/4;
-    grid-row: 3/4;
+  grid-column: 3/4;
+  grid-row: 3/4;
 }
 
 .ea3-container {
-    grid-column: 2/3;
-    grid-row: 4/5;
+  grid-column: 2/3;
+  grid-row: 4/5;
 }
 
 .ea4-container {
-    grid-column: 3/4;
-    grid-row: 4/5;
+  grid-column: 3/4;
+  grid-row: 4/5;
 }
 
-/*******Smashing members section*******/
+/*******  Smashing members section  *******/
 
 .smashing-members-container {
-    grid-column: 2/4;
-    grid-row: 5/6;
-    margin-top: 60px;
-    border: 1px solid gray;
+  grid-column: 2/4;
+  grid-row: 5/6;
+  margin-top: 60px;
+  border: 1px solid gray;
 }
 
 .smashing-members-items-container {
-    width: 850px;
+  width: 850px;
 }
 
 .smashing-members-img {
-    width: 250px;
-    height: 250px;
-    margin: 70px auto;
+  width: 250px;
+  height: 250px;
+  margin: 70px auto;
 }
 
 .smashing-title {
-    width: 600px;
-    height: 60px;
-    margin-bottom: 60px;
+  width: 600px;
+  height: 60px;
+  margin-bottom: 60px;
 }
 
 .smashing-lines {
-    width: 700px;
+  width: 700px;
 }
 
 .smashing-lines2 {
-    width: 800px;
+  width: 800px;
 }
 
 .smashing-btn {
-    width: 280px;
-    height: 80px;
-    margin-top: 60px;
+  width: 280px;
+  height: 80px;
+  margin-top: 60px;
 }
 
 .smashing-sigin {
-    width: 300px;
-    height: 20px;
-    margin-top: 30px;
-    margin-bottom: 70px;
+  width: 300px;
+  height: 20px;
+  margin-top: 30px;
+  margin-bottom: 70px;
 }
 
-/*******Eith articles section 2da parte*******/
+/*******  Eith articles section 2da parte  *******/
 
 .ea5-container {
-    grid-column: 2/3;
-    grid-row: 6/7;
+  grid-column: 2/3;
+  grid-row: 6/7;
 }
 
 .ea6-container {
-    grid-column: 3/4;
-    grid-row: 6/7;
+  grid-column: 3/4;
+  grid-row: 6/7;
 }
 
 .ea7-container {
-    grid-column: 2/3;
-    grid-row: 7/8;
+  grid-column: 2/3;
+  grid-row: 7/8;
 }
 
 .ea8-container {
-    grid-column: 3/4;
-    grid-row: 7/8;
+  grid-column: 3/4;
+  grid-row: 7/8;
 }
 
-/*******Smashing TV section*******/
+/*******  Smashing TV section  *******/
 
 .smashing-tv-container {
-    grid-column: 2/4;
-    grid-row: 8/9;
-    border: 1px solid gray;
+  grid-column: 2/4;
+  grid-row: 8/9;
+  border: 1px solid gray;
 }
 
 .smashing-tv-items-container {
-    width: 850px;
+  width: 850px;
 }
 
 .smashing-tv-img {
-    width: 250px;
-    height: 250px;
-    margin: 70px auto;
+  width: 250px;
+  height: 250px;
+  margin: 70px auto;
 }
 
-/*******Lastes article section*******/
+/*******  Lastes article section  *******/
 
 .latest-articles-container {
-    grid-column: 1/5;
-    grid-row: 9/10;
+  grid-column: 1/5;
+  grid-row: 9/10;
 }
 
-/*******Click section*******/
+/*******  Click section  *******/
 
 .click-container {
-    grid-column: 1/5;
-    grid-row: 10/11;
-    border: 1px solid gray;
+  grid-column: 1/5;
+  grid-row: 10/11;
+  border: 1px solid gray;
 }
 
 .click-items-container {
-    width: 100%;
-    margin-top: 80px;
+  width: 100%;
+  margin-top: 80px;
 }
 
 .click-date {
-    width: 300px;
-    height: 25px;
-    margin-bottom: 60px;
+  width: 300px;
+  height: 25px;
+  margin-bottom: 60px;
 }
 
 .click-title {
-    width: 800px;
-    height: 60px;
-    margin: 25px auto;
+  width: 800px;
+  height: 60px;
+  margin: 25px auto;
 }
 
 .click-title2 {
-    width: 500px;
-    height: 60px;
-    margin: 25px auto;
+  width: 500px;
+  height: 60px;
+  margin: 25px auto;
 }
 
 .click-lines {
-    width: 850px;
+  width: 850px;
 }
 
 .click-lines2 {
-    width: 700px;
+  width: 700px;
 }
 
 .click-btn {
-    width: 450px;
-    height: 80px;
-    margin-top: 60px;
+  width: 450px;
+  height: 80px;
+  margin-top: 60px;
 }
 
 .click-img {
-    width: 500px;
-    height: 500px;
-    margin: 80px auto;
+  width: 500px;
+  height: 500px;
+  margin: 80px auto;
 }
 
-/*******Comunity links section*******/
+/*******  Comunity links section  *******/
 
 .comunity-links-title-container {
-    grid-column: 2/4;
-    grid-row: 11/12;
-    height: 100px;
+  grid-column: 2/4;
+  grid-row: 11/12;
+  height: 100px;
 }
 
 .comunity-links-title {
-    width: 250px;
-    height: 30px;
-    margin: 35px 0;
+  width: 250px;
+  height: 30px;
+  margin: 35px 0;
 }
 
 .comunity-links-container {
-    grid-column: 2/4;
-    grid-row: 12/13;
-    height: 1000px;
+  grid-column: 2/4;
+  grid-row: 12/13;
+  height: 1000px;
 }
 
 .week-person-container {
-    grid-column: 2/4;
-    grid-row: 12/13;
-
+  grid-column: 2/4;
+  grid-row: 12/13;
 }
 
 .week-person-img {
-    width: 300px;
-    height: 300px;
-    margin-top: 30px;
+  width: 300px;
+  height: 300px;
+  margin-top: 30px;
 }
 
 .week-person-title {
-    width: 250px;
-    height: 30px;
-    margin-bottom: 50px;
+  width: 250px;
+  height: 30px;
+  margin-bottom: 50px;
 }
 
 .week-person-text-container {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
-.week-person-lines{
-    width: 700px;
+.week-person-lines {
+  width: 700px;
 }
 
 .week-person-lines2 {
-    width: 650px;
+  width: 650px;
 }
 
-/*******Comments section*******/
+/*******  Comments section  *******/
 
 .comment-1-container {
-    grid-column: 2/4;
-    grid-row: 13/14;
+  grid-column: 2/4;
+  grid-row: 13/14;
 }
 
 .comments-img {
-    width: 100px;
-    height: 100px;
-    margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
 }
 
 .comments-name {
-    width: 450px;
-    height: 30px;
+  width: 450px;
+  height: 30px;
 }
 
 .comments-title {
-    width: 600px;
-    height: 30px;
-    margin: 40px 0;
+  width: 600px;
+  height: 30px;
+  margin: 40px 0;
 }
 
 .comments-text-container {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
-.comments-lines{
-    width: 800px;
+.comments-lines {
+  width: 800px;
 }
 
 .comments-lines2 {
-    width: 600px;
+  width: 600px;
 }
 
 .comment-2-container {
-    grid-column: 2/4;
-    grid-row: 14/15;
+  grid-column: 2/4;
+  grid-row: 14/15;
 }
 
 .comment-3-container {
-    grid-column: 2/4;
-    grid-row: 15/16;
+  grid-column: 2/4;
+  grid-row: 15/16;
 }
 
 .comment-4-container {
-    grid-column: 2/4;
-    grid-row: 16/17;
+  grid-column: 2/4;
+  grid-row: 16/17;
 }
 
 .comment-5-container {
-    grid-column: 2/4;
-    grid-row: 17/18;
+  grid-column: 2/4;
+  grid-row: 17/18;
 }
 
 .comment-6-container {
-    grid-column: 2/4;
-    grid-row: 18/19;
+  grid-column: 2/4;
+  grid-row: 18/19;
 }
 
-/*******More links section*******/
+/*******  More links section  *******/
 
 .more-links-container {
-    grid-column: 1/5;
-    grid-row: 19/20;
+  grid-column: 1/5;
+  grid-row: 19/20;
 }
 
-/*******Design system section*******/
+/*******  Design system section  *******/
 
 .design-container {
-    grid-column: 1/5;
-    grid-row: 20/21;
-    border: 1px solid gray;
+  grid-column: 1/5;
+  grid-row: 20/21;
+  border: 1px solid gray;
 }
 
 .design-items-container {
-    width: 1100px;
-    margin: 60px auto;
+  width: 1100px;
+  margin: 60px auto;
 }
 
 .design-img {
-    width: 250px;
-    height: 350px;
+  width: 250px;
+  height: 350px;
 }
 
 .design-title {
-    width: 400px;
-    height: 60px;
-    margin: 50px 0;
+  width: 400px;
+  height: 60px;
+  margin: 50px 0;
 }
 
 .design-lines {
-    width: 700px;
+  width: 700px;
 }
 
 .design-lines2 {
-    width: 300px;
+  width: 300px;
 }
 
 .design-btn {
-    width: 400px;
-    height: 80px;
-    margin-top: 60px;
+  width: 400px;
+  height: 80px;
+  margin-top: 60px;
 }
 
-/*******Our guides section*******/
+/*******  Our guides section  *******/
 
 .our-guides-title-container {
-    grid-column: 2/4;
-    grid-row: 22/23;
-    height: 100px;
+  grid-column: 2/4;
+  grid-row: 22/23;
+  height: 100px;
 }
 
 .our-guides-title {
-    width: 250px;
-    height: 30px;
-    margin: 35px 0;
+  width: 250px;
+  height: 30px;
+  margin: 35px 0;
 }
 
 .qg1-container {
-    grid-column: 2/3;
-    grid-row: 23/24;
-    padding: 30px;
-    margin-right: 15px;
-    border: 1px solid gray;
+  grid-column: 2/3;
+  grid-row: 23/24;
+  padding: 30px;
+  margin-right: 15px;
+  border: 1px solid gray;
 }
 
 .qg-items-container {
-    width: 450px;  
+  width: 450px;
 }
 
 .qg-title {
-    width: 350px;
-    height: 60px;
-    margin: 25px 0;
+  width: 350px;
+  height: 60px;
+  margin: 25px 0;
 }
 
-.qg-text-container{
-    margin-top: 50px;
+.qg-text-container {
+  margin-top: 50px;
 }
 
 .qg-lines {
-    width: 450px;
+  width: 450px;
 }
 
 .qg-lines2 {
-    width: 250px;
+  width: 250px;
 }
 
 .qg-btn {
-    width: 450px;
-    height: 80px;
-    margin-top: 40px;
-    margin-bottom: 25px;
+  width: 450px;
+  height: 80px;
+  margin-top: 40px;
+  margin-bottom: 25px;
 }
 
 .qg2-container {
-    grid-column: 3/4;
-    grid-row: 23/24;
-    padding: 30px;
-    margin-left: 15px;
-    border: 1px solid gray;
+  grid-column: 3/4;
+  grid-row: 23/24;
+  padding: 30px;
+  margin-left: 15px;
+  border: 1px solid gray;
 }
 
 .qg3-container {
-    grid-column: 2/3;
-    grid-row: 24/25;
-    padding: 30px;
-    margin-right: 15px;
-    border: 1px solid gray;
+  grid-column: 2/3;
+  grid-row: 24/25;
+  padding: 30px;
+  margin-right: 15px;
+  border: 1px solid gray;
 }
 
 .qg4-container {
-    grid-column: 3/4;
-    grid-row: 24/25;
-    padding: 30px;
-    margin-left: 15px;
-    border: 1px solid gray;
+  grid-column: 3/4;
+  grid-row: 24/25;
+  padding: 30px;
+  margin-left: 15px;
+  border: 1px solid gray;
 }
 
-/*******See all guides section*******/
+/*******  See all guides section  *******/
 
 .see-all-guides-container {
-    grid-column: 1/5;
-    grid-row: 25/26;
+  grid-column: 1/5;
+  grid-row: 25/26;
 }
 
-/*******Footer section*******/
+/*******  Footer section  *******/
 
 .footer-container {
-    grid-column: 1/5;
-    grid-row: 26/27;
-    border: 1px solid gray;
+  grid-column: 1/5;
+  grid-row: 26/27;
+  border: 1px solid gray;
 }
 
 .subfooter1-container {
-    width: 960px;
-    margin-top: 50px;
+  width: 960px;
+  margin-top: 50px;
 }
 
 .footer-lines {
-    width: 600px;
+  width: 600px;
 }
 
 .footer-lines2 {
-    width: 400px;
+  width: 400px;
 }
 
 .footer-ul-topics {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .footer-ul-topics li {
-    width: 100px;
-    height: 25px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+  width: 100px;
+  height: 25px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .subfooter2-container {
-    width: 1000px;
-    margin-top: 100px;
+  width: 1000px;
+  margin-top: 100px;
 }
 
 .subfooter2-text-container {
-    width: 600px;
+  width: 600px;
 }
 
 .footer-img {
-    width: 250px;
-    height: 250px;
-    margin-left: 30px;
-    margin-top: 120px;
+  width: 250px;
+  height: 250px;
+  margin-left: 30px;
+  margin-top: 120px;
 }
 
 .footer-ul-information {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .footer-ul-information li {
-    width: 100px;
-    height: 25px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+  width: 100px;
+  height: 25px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
